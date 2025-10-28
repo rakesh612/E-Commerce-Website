@@ -66,19 +66,6 @@ E-Commerce-Website/
 └── README.md
 ```
 
-## 🖼️ Screenshots
-
-Add the following images to the `screenshots/` folder in the project root and they will render automatically on GitHub:
-
-```text
-screenshots/
-├── home.png        # Products grid
-├── cart.png        # Cart modal with items
-├── checkout.png    # Checkout form
-├── receipt.png     # Receipt modal
-└── mobile.png      # Mobile responsive view
-```
-
 Example renders:
 
 ![Home](./screenshots/home.png)
