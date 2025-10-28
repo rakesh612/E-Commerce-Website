@@ -75,11 +75,6 @@ Example renders:
 ![Receipt](./screenshots/receipt.png)
 ![Mobile](./screenshots/mobile.png)
 
-### How to capture
-- Start backend (`npm run dev` in `backend/`) and frontend (`npm run dev` in `frontend/`).
-- Open `http://localhost:3000`.
-- Take screenshots (PNG/JPG), save them with the exact filenames above into `./screenshots/`.
-- Commit and push — GitHub will display them in this README.
 
 ## 🚀 Getting Started
 
@@ -249,31 +244,8 @@ npm start
 }
 ```
 
-## 🚀 Deployment
 
-### Backend Deployment
-1. Set up MongoDB Atlas or use a cloud MongoDB service
-2. Update the `MONGODB_URI` in your environment variables
-3. Deploy to platforms like Heroku, Railway, or DigitalOcean
-
-### Frontend Deployment
-1. Build the frontend: `npm run build`
-2. Deploy the `dist` folder to platforms like Vercel, Netlify, or GitHub Pages
-3. Update API endpoints to point to your deployed backend
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
+## 👨‍💻 Author - Nukala Hanumath Rakesh
 
 Created as part of Vibe Commerce screening assignment.
 
