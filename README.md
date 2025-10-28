@@ -62,8 +62,37 @@ E-Commerce-Website/
 │   ├── vite.config.js     # Vite configuration
 │   ├── tailwind.config.js # Tailwind configuration
 │   └── postcss.config.js  # PostCSS configuration
+├── screenshots/           # PNG/JPG screenshots referenced by README
 └── README.md
 ```
+
+## 🖼️ Screenshots
+
+Add the following images to the `screenshots/` folder in the project root and they will render automatically on GitHub:
+
+```text
+screenshots/
+├── home.png        # Products grid
+├── cart.png        # Cart modal with items
+├── checkout.png    # Checkout form
+├── receipt.png     # Receipt modal
+└── mobile.png      # Mobile responsive view
+```
+
+Example renders:
+
+![Home](./screenshots/home.png)
+![Home](./screenshots/home2.png)
+![Cart](./screenshots/cart.png)
+![Checkout](./screenshots/checkout.png)
+![Receipt](./screenshots/receipt.png)
+![Mobile](./screenshots/mobile.png)
+
+### How to capture
+- Start backend (`npm run dev` in `backend/`) and frontend (`npm run dev` in `frontend/`).
+- Open `http://localhost:3000`.
+- Take screenshots (PNG/JPG), save them with the exact filenames above into `./screenshots/`.
+- Commit and push — GitHub will display them in this README.
 
 ## 🚀 Getting Started
 
