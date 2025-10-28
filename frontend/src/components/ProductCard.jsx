@@ -16,9 +16,12 @@ const ProductCard = ({ product, onAddToCart }) => {
           src={product.image}
           alt={product.name}
           className="w-full h-48 object-cover"
+          loading="lazy"
+          referrerPolicy="no-referrer"
           onError={(e) => {
             console.log('Image failed to load:', product.image);
-            e.target.src = 'https://via.placeholder.com/300x200?text=Image+Not+Found';
+            e.target.onerror = null;
+            e.target.src = 'https://placehold.co/300x200?text=No+Image';
           }}
         />
       </div>

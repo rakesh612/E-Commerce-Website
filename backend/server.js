@@ -53,14 +53,14 @@ const initializeProducts = async () => {
   const count = await Product.countDocuments();
   if (count === 0) {
     const products = [
-      { name: 'Wireless Headphones', price: 99.99, description: 'High-quality wireless headphones', image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=200&fit=crop', category: 'Electronics' },
-      { name: 'Smart Watch', price: 199.99, description: 'Feature-rich smartwatch', image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=200&fit=crop', category: 'Electronics' },
-      { name: 'Coffee Maker', price: 79.99, description: 'Automatic coffee maker', image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=300&h=200&fit=crop', category: 'Appliances' },
-      { name: 'Running Shoes', price: 129.99, description: 'Comfortable running shoes', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=200&fit=crop', category: 'Sports' },
-      { name: 'Laptop Stand', price: 49.99, description: 'Adjustable laptop stand', image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=300&h=200&fit=crop', category: 'Accessories' },
-      { name: 'Bluetooth Speaker', price: 89.99, description: 'Portable bluetooth speaker', image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&h=200&fit=crop', category: 'Electronics' },
-      { name: 'Desk Lamp', price: 39.99, description: 'LED desk lamp with adjustable brightness', image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=300&h=200&fit=crop', category: 'Furniture' },
-      { name: 'Water Bottle', price: 24.99, description: 'Insulated water bottle', image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&h=200&fit=crop', category: 'Sports' }
+      { name: 'Wireless Headphones', price: 99.99, description: 'High-quality wireless headphones', image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=200&fit=crop&auto=format', category: 'Electronics' },
+      { name: 'Smart Watch', price: 199.99, description: 'Feature-rich smartwatch', image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=200&fit=crop&auto=format', category: 'Electronics' },
+      { name: 'Coffee Maker', price: 79.99, description: 'Automatic coffee maker', image: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?w=300&h=200&fit=crop&auto=format', category: 'Appliances' },
+      { name: 'Running Shoes', price: 129.99, description: 'Comfortable running shoes', image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=200&fit=crop&auto=format', category: 'Sports' },
+      { name: 'Laptop Stand', price: 49.99, description: 'Adjustable laptop stand', image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=300&h=200&fit=crop&auto=format', category: 'Accessories' },
+      { name: 'Bluetooth Speaker', price: 89.99, description: 'Portable bluetooth speaker', image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&h=200&fit=crop&auto=format', category: 'Electronics' },
+      { name: 'Desk Lamp', price: 39.99, description: 'LED desk lamp with adjustable brightness', image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=300&h=200&fit=crop&auto=format', category: 'Furniture' },
+      { name: 'Water Bottle', price: 24.99, description: 'Insulated water bottle', image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&h=200&fit=crop&auto=format', category: 'Sports' }
     ];
     await Product.insertMany(products);
     console.log('Products initialized');
